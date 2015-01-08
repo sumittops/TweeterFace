@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white2" >
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:background="@color/blueburst"
+      	android:text="@string/about"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        android:text="@string/abouttext" />
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:background="@color/blueburst"
+      	android:text="@string/settings"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+<TextView        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/white"
+        android:text="@string/defaultchoice"
+         />
+<RadioGroup
+    android:id="@+id/rbg"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+       android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        
+    >
+    <RadioButton
+    android:id="@+id/radioButton1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/fbchoice" />
+
+<RadioButton
+    android:id="@+id/radioButton2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/twchoice" />
+
+<RadioButton
+    android:id="@+id/radioButton3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/openchoice" />
+</RadioGroup>
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:background="@color/blueburst"
+      	android:text="@string/developer"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:background="@color/white"
+    android:padding="10dp"
+    android:text="@string/sumit" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:background="@color/white"
+    android:padding="10dp"
+    android:text="@string/shubham" />
+</LinearLayout>
+</ScrollView>

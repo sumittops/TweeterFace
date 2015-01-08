@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   <TextView 
+    android:id="@+id/welcome"   
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:textStyle="bold"
+    android:padding="20dp"
+    android:background="@color/title"
+    android:textColor="@color/com_facebook_loginview_text_color"
+    android:text="@string/loading"/>
+  
+
+<ListView
+    android:id="@+id/newsfeed"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    >
+</ListView>
+</LinearLayout>

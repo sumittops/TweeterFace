@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TweetFace</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="login">Login To Twitter</string>
+	<string name="newtweet">Write a new tweet</string>
+	<string name="welcome">Welcome to TweetFace!</string>
+	<color name="blueburst">#abcdff</color>
+	<color name="skyblue">#35B5E5</color>
+	<color name="white">#fff</color>
+	<string name="choice">Choose one to proceed</string>
+	<color name="white2">#DBDBDB</color>
+	<color name="title">#89ABCD</color>
+	<string name="logouttwitter">Logout of Twitter</string>
+	<string name="logoutfacebok">Logout of Facebook</string>
+	<string name="face">Open Facebook</string>
+	<string name="twitter">Open Twitter</string>
+	<color name="lightgray">#efefef</color>
+	<string name="update">Update</string>
+	<string name="app_id">702441216517645</string>
+	<color name="greenburst">#FF99CC00</color>
+	<color name="lightgreenburst">#9999CC00</color>
+	<string name="loading">Loading . . .</string>
+	<color name="orange">#FFBB33</color>
+	<string name="about">About TweetFace</string>
+	<string name="settings">Settings</string>
+	<string name="defaultchoice">Choose which view to open by default</string>
+	<string name="abouttext">TweetFace is a minimum viable social networking app that keeps you updated with the latest 
+	    that is happening in your social circles on Facebook and Twitter. It was developed as a training program project.
+	 </string>
+	<string name="fbchoice">Open Facebook by default</string>
+	<string name="twchoice">Open Twitter by default</string>
+	<string name="openchoice">Let me choose every time</string>
+	<string name="developer">Developers</string>
+	<string name="sumit">Sumit Majumdar - Connnectivity with Facebook and Twitter - Data publishing and profile access</string>
+	<string name="shubham">Shubham Sayon - UI design and activity lifecycle management</string>
+</resources>

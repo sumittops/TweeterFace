@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/login"
+        android:visibility="gone" />
+	<TextView 
+	    android:id="@+id/loading"
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:textSize="16sp"
+	    android:text="@string/loading"
+	    android:visibility="gone"
+	    android:background="@color/blueburst"
+	    android:textColor="@color/com_facebook_loginview_text_color"/>
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="User Name"
+         android:visibility="gone"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+         android:background="@color/blueburst" />
+
+    <ListView
+        android:id="@+id/timeline"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_weight="0.89"
+         android:visibility="gone"
+        android:background="@color/white2" >
+    </ListView>
+
+    <Button
+        android:id="@+id/newstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blueburst"
+        android:textColor="@color/white"
+         android:visibility="gone"
+        android:text="@string/newtweet" />
+
+   
+
+</LinearLayout>

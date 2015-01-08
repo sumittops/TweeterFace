@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="@color/blueburst" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/newtweet"
+        android:textColor="@color/white"    
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.82"
+        android:ems="10"
+        android:hint="@string/newtweet"
+        android:background="@color/white"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/updatebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/title"
+        android:text="@string/update"
+        android:textColor="@color/white" />
+
+</LinearLayout>

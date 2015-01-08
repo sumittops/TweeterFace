@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sumitspace.tweeterface"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+	<uses-permission  android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/social"
+        android:label="@string/app_name"
+        android:theme="@style/TweetfaceTheme" >
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id"/>
+       <activity android:name=".StartActivity"
+           android:screenOrientation="portrait"
+     android:configChanges="keyboardHidden|orientation|screenSize">
+           <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+       </activity>
+       <activity android:name=".Settings"
+           android:screenOrientation="portrait"
+     android:configChanges="keyboardHidden|orientation|screenSize"></activity>
+        <activity
+            android:name="com.sumitspace.tweeterface.MainActivity"
+            android:label="TweetFace"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+     android:configChanges="keyboardHidden|orientation|screenSize" >
+           
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="oauth" android:host="sumitspace.com"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".NewTweet"
+            android:screenOrientation="portrait"
+     android:configChanges="keyboardHidden|orientation|screenSize"></activity>
+        <activity android:name=".FacebookActivity"
+            android:screenOrientation="portrait"
+     android:configChanges="keyboardHidden|orientation|screenSize">
+        </activity>
+        <activity android:name="com.facebook.LoginActivity" android:label="@string/app_name" android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>
